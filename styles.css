@@ -1,0 +1,381 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color:white;
+}
+body{
+    background-color:#0f0f10;
+}
+.header{
+    display:flex;
+    justify-content: space-evenly;
+    gap:40px;
+    height:60px;
+    position: relative;
+    left: 30px;
+    top:0px;
+}
+.header ul li{
+    font-weight: bold;
+    font-size:14px;
+    color: white;
+    list-style: none;
+}
+.header ul{
+    display:flex;
+    gap:40px;
+    position: relative;
+    top: 34px;
+    left:18px;
+}
+.beatslogo img{
+    height:25px;
+    width:25px;
+    position: relative;
+    top:40px;
+    left:60px;
+}
+.mainimage img{
+    height:541px;
+    width:227px;
+    position: relative;
+    top:-120px;
+    left:-57px;
+}
+.shop{
+   position: relative;
+    top:9px;
+    left:-93px;
+    background-color: #1e1e21;
+    border-radius: 8px;
+   margin-top:17px;
+   padding-left: 40px;
+   padding-right: 40px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:77px;
+}
+.onear{
+    position: relative;
+    left:110px;
+    top:-5px;
+    height:70px;
+    width:307px;
+}
+.section1 h1{
+    font-size:45px;
+    position: relative;
+    top:3px;
+}
+.overview{
+    position: relative;
+    top:0px;
+    left:0px;
+}
+.beats2{
+    margin-left: 626px;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+.enjoy{
+    font-size: 12px;
+    line-height: 25px;
+    margin-right: 415px;
+    color:#bdc0c2
+}
+.buttonsection{
+    display:flex;
+    align-items: center;
+    gap:17px;
+    background-color: #1e1e21;
+    border-radius: 8px;
+    padding:11px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width:fit-content;
+    position: relative;
+    top:-5px;
+}
+.addbag{
+    font-size: small;
+}
+.social{
+    position: relative;
+    top:100px;
+    display:flex;
+    gap:150px;
+}
+.social img{
+    height:25px;
+    width:90px;
+}
+.section2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:300px;
+    gap:20px;
+}
+.first{
+    display:flex;
+}
+.specs img{
+    height:60px;
+    width:180px;
+    position: relative;
+    top:-25px;
+}
+.specs1 img{
+    height:18px;
+    width:15px;
+}
+.specs2{
+    margin-top: 3px;
+    font-size: 12px;
+}
+.specs3{
+    font-size:10px;
+    color:#bdc0c2;
+    margin-top:5px;
+}
+
+.modes{
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+    position: relative;
+    left:-50px;
+    top:-10px;
+}
+.shift{
+    margin-left: -30px;
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+}
+.specimg img{
+    position: relative;
+    top:25px;
+    left:40px;
+}
+.section3{
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section3  :first-child{
+    height:50px;
+    width:165px;
+}
+.case{
+    display:flex;
+    margin-top: 73px;
+}
+.buttoncase{
+    display:flex;
+    background-color: #1e1e21;
+    border-radius: 8px;
+    width: fit-content;
+    gap:20px;
+    padding:13px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.buttoncase p{
+    font-size: 12px;
+}
+.case :first-child{
+    height:335px;
+    width:240px;
+}
+.buttoncase :first-child{
+    height:18.4px;
+    width:18.4px;
+}
+.casepara{
+    display:flex;
+    flex-direction: column;
+    height:160px;
+    position: relative;
+    left:65px;
+    margin-top:85px;
+}
+.with{
+    font-size: 12px;
+    line-height: 25px;
+    color:#bdc0c2;
+}
+.section4{
+    background-color: #181a1b;
+    display:flex;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+    margin-left: 222px;
+    margin-right: 222px;
+    margin-top:95px;
+    gap:50px;
+}
+.buttonbuy{
+    display:flex;
+    background-color: #0f0f10;
+    width: fit-content;
+    gap:13px;
+    padding:11px;
+    border-radius: 8px;
+    padding-left:23px;
+    padding-right:23px;
+}
+.buttonbuy img{
+    height:17.6px;
+    width:16px;
+}
+.buttonbuy p{
+    font-size: small;
+}
+.half{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.immense{
+    font-size: 18px;
+    font-weight:600;
+}
+.buynow{
+    font-size: 14px;
+    color:#bdc0c2;
+}
+.section5{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prolog img{
+    height:90px;
+    width:200px;
+    margin-top:75px;
+}
+.black1{
+    display:flex;
+    align-items: end;
+    gap:38px;
+    position: relative;
+    top:-40px;
+}
+.black{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#181a1b;
+    padding:17px;
+    border-radius: 9px;
+    margin-top: 70px;
+    height:130px;
+    width:164px;
+}
+.bag img{
+    height:13px;
+    width:13px;
+}
+.blk img{
+    height:100px;
+    width:75px;
+    position: relative;
+    top:-57px;
+}
+.contents p{
+    font-size: 12px;
+}
+.bag{
+    background-color: #0f0f10;
+    padding:2px;
+    border-radius: 4px;
+    padding-left: 6px;
+    padding-right:6px;
+}
+.content2{
+    color: #bdc0c2;
+}
+.choice1{
+    display:flex;
+    gap:50px;
+}
+.choice{
+    margin-left:-125px;
+    margin-top: 25px;
+}
+.section6{
+    display:flex;
+    justify-content: center;
+    gap:175px;
+    margin-top:135px;
+    margin-left:120px;
+    margin-bottom: 100px;
+}
+.lg img{
+    height:25.6px;
+    width:25.6px;
+}
+.products ul li{
+    font-size: 12px;
+    color:#bdc0c2;
+}
+.products ul{
+    margin-top: 13px;
+    line-height: 22px;
+    list-style: none;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.inputs{
+    display: flex;
+    background-color: #181a1b;
+    padding:6px;
+    border-radius: 8px;
+}
+.subscribe{
+    display:flex;
+    background-color:#0f0f10;
+    gap:20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius: 8px;
+}
+.subscribe img{
+    height:15.2px;
+    width:13.6px;
+}
+.subscribe p{
+    font-size: 12px;
+}
+.inputs input{
+    background-color: transparent;
+    border:none;
+}
+.smedia img{
+    height:25.6px;
+    width:25.6px;
+    margin-right:13px;
+}
+.smedia{
+    margin-top:30px;
+}
+.upperarrow img{
+    height:28.8px;
+    width:28.8px;
+}
